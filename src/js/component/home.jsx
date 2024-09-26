@@ -10,7 +10,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	
 	return (
-		<div className="d-flex justify-content-center ">
+		<div className="d-flex flex-column align-items-center">
 		<TodoList />	
 		</div>
 	);

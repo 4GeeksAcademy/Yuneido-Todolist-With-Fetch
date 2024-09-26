@@ -14,18 +14,15 @@
 
 .sheet{
     background-color: white;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    top: -5px;
+    left: -5px;
     min-height: 102%;
     width: 103%;
     border: 1px solid lightgrey;
     box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
     
 }
-
-
 
 
 /* Inicialmente ocultamos el botón */
@@ -65,4 +62,8 @@ div.list-item:hover .delete-btn {
 #todoFooter{
   font-size: 0.85rem;
   border-bottom: none;
+}
+
+#eraseUserButton{
+  margin-top: 3rem;
 }
